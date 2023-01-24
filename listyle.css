@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    background-color: #f3f2ef;
+    padding-top: 10px;
+}
+.limg{
+    height: 30px;
+    width: 150px;
+    padding-left: 100px;
+}
+.bd{
+    background-color: #f3f2ef;
+    padding-top: 10px;
+    padding-right: 550px;
+    padding-left: 550px;
+}
+.con{
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding: 20px;
+}
+.email{
+    border-radius: 5px;
+    width: 370px;
+    height: 30px;
+}
+.password{
+    border-radius: 5px;
+    width: 370px;
+    height: 30px;
+}
+.seperator{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    width: 100%;   
+}
+.line{
+    height: 1px;
+    flex: 1;
+    background-color: #c5c5c5;
+}
+h4{
+    padding: 0 1rem;
+    
+}
+.btn{
+    height: 50px;
+    width: 370px;
+    border-radius: 25px;
+    border:none;
+    background-color: #0A66C2;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #162f6e;
+}
+.google{
+    height: 25px;
+    width: 25px;
+}
+.bit{
+    background-color: white;
+    height: 50px;
+    width: 370px;
+    border-radius: 25px;
+    border-color: #0A66C2;
+    color: #0A66C2;
+    font-size: large;
+    cursor: pointer;
+}
+.bit:hover{
+    background-color: #c5c5c5;
+}
+.last{
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: #0A66C2;
+}
+a:hover{
+    text-decoration: underline;
+    color: #162f6e;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: .6rem 0;
+    cursor: pointer;
+  }
+  footer *{
+    color: black;
+  }
+  footer > *:hover{
+    color: blue
+  }
+.help{
+  float: right;
+}
+.table{
+    width: 70%;
+	margin: 0 auto;
+}
+table {
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: solid 1px #818181;
+	text-align: center;
+	padding: 0.25em;
+}
